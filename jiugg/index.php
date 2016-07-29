@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-        <title>2016"鼓楼微讯"助您新年行大运</title>
+        <title>九宫格</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css" />
 		<link  href="css/zhuanpan.css" rel="stylesheet" type="text/css" />
 		<meta name="viewport" content="width=640"/>
@@ -13,7 +13,7 @@
         <link href="alert/jquery.alerts3.css" rel="stylesheet" type="text/css"/>
 <?php session_start();
 	if($_SESSION['sdj']=="" || empty($_SESSION['sdj'])){
-			echo '<script type="text/javascript" src="http://wxapp.njdaily.cn/cms/statics/jinghua/js/err.js"></script>';
+			
 			die;
 		}
 ?>
@@ -71,9 +71,9 @@
     <body style="overflow:-Scroll;overflow-y:hidden">
     	<div class="box">
 	<?php
-		$DBuser = "springfestival";
-		$DBpwd = "springfestival";
-		$DBname = "springfestival";
+		$DBuser = "";
+		$DBpwd = "";
+		$DBname = "";
 		$DBip = "127.0.0.1";
 		$link = mysql_connect($DBip, $DBuser, $DBpwd);
 		mysql_select_db($DBname ,$link);

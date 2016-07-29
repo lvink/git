@@ -2,9 +2,9 @@
 date_default_timezone_set('Asia/Shanghai');
     //连接数据库
 	
-	$DBuser = "springfestival";
-	$DBpwd = "springfestival";
-	$DBname = "springfestival";
+	$DBuser = "";
+	$DBpwd = "";
+	$DBname = "";
     $DBip = "127.0.0.1";
     $link = mysql_connect($DBip, $DBuser, $DBpwd);
     mysql_select_db($DBname ,$link);

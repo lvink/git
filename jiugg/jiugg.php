@@ -1,9 +1,9 @@
 <?php
 header('content-type:text/html;charset=utf-8');
 session_start();
-$DBuser = "springfestival";
-$DBpwd = "springfestival";
-$DBname = "springfestival";
+$DBuser = "";
+$DBpwd = "";
+$DBname = "";
 $DBip = "127.0.0.1";
 $link = mysql_connect($DBip, $DBuser, $DBpwd);
 mysql_select_db($DBname ,$link);
