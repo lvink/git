@@ -1,0 +1,35 @@
+
+.userinfo-form {
+    background: none repeat scroll 0 0 #fff;
+	position:absolute;
+	z-index:999;
+    height: 456px;
+    width: 456px;
+	top:0; left:0; font-size:24px;
+}
+.userinfo-form .form {font-family:"微软雅黑";
+    padding: 20px;
+}
+.userinfo-form h2 {
+    border-bottom: 1px solid #ff6d6d;
+    color: #ff6d6d; text-align:center;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+}
+.userinfo-form .input-text {
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #eee;
+    padding: 3px 5px;
+    width: 250px; border-radius:10px; font-family:"微软雅黑"; font-size:24px
+}
+.userinfo-form .items .item {
+    padding: 6px 0;
+}
+.userinfo-form .score-links {
+    margin: 20px auto 0;height: 70px;width: 268px; background:url(http://vote.njdaily.cn/2015/msinvitation/images/btn.jpg) 0 center no-repeat;text-align: center;
+}
+.userinfo-form .score-link {color: #fff;height:70px;line-height:68px; display:block;font-family: "微软雅黑";font-size: 36px;text-decoration: none;}
+.userinfo-form .score-link:hover {
+    text-decoration: none;
+}

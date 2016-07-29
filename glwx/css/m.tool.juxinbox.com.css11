@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+#loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    zoom: 1;
+}
+#loading_bg {
+    width: 100%;
+    height: 100%;
+    background:#000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;/*FireFox下透明效果*/
+    opacity: 0;/*Chrome下透明效果*/
+    zoom: 1;/*filter: alpha(opacity=20);*/
+}
+#loading_div {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    margin-left: -32px;
+    margin-top: -32px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    z-index: 99998;
+    zoom: 1;
+    /*border:1px solid #000;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius:8px;
+    /*box-shadow:0 2px 5px rgba(0,0,0,0.5);*/
+}
+#loading_pic {
+    margin:16px;
+    background-image:url(http://www.juxinbox.com/img/loading_m.gif);
+    background-size:32px 32px;
+    width:32px;
+    height:32px;
+}
+#loading_div span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-shadow:0 1px 0 #FFF;
+}
+#alerw {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	zoom: 1;
+	/*display: none;*/
+}
+#alerw_bg {
+	width: 100%;
+	height: 100%;
+	background:#000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;/*FireFox下透明效果*/
+ 	opacity: 0.4;/*Chrome下透明效果*/
+	zoom: 1;/*filter: alpha(opacity=20);*/
+}
+#alerw_div {
+	width: 238px;
+    min-height: 92px;
+	position: absolute;
+	margin-left: -135px;
+	margin-top: -124px;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	z-index: 100000;
+	zoom: 1;
+	background:#e4e4e4;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius:6px;
+	padding:16px;
+	overflow:hidden;
+}
+#alerw_div .title{
+    font-weight: bold;
+    height:28px;
+    line-height:28px;
+    font-size:18px;
+    color: #000;
+}
+#alerw_div .content{
+	font-size:14px;
+	line-height:19px;
+	color:#000;
+	min-height:19px;
+}
+#alerw_div .ab{
+	padding: 12px;
+	text-align: center;
+	color: #06f;
+    height: 21px;
+	text-decoration:none;
+	line-height:21px;
+    font-size: 16px;
+    border-top: 1px solid #b3b3b3;
+    display: block;
+    margin: -16px;
+    margin-top: 16px;
+}
+#alerw_div .ab.ab_one{
+}
+#alerw_div .ab.ab_two{
+    width: 111px;
+    float: left;
+}
+#alerw_div .ab.ab_ok{
+    font-weight: bold;
+}
+#alerw_div .ab.ab_ok.ab_two{
+    margin-left: -1px;
+    border-left: 1px solid #b3b3b3;
+}
+#alerw_div .ab.ab_c.ab_two{
+    margin-right: 0;
+}
+#alerw_div .ab:hover{
+	background-color: #d9d9d9;
+}
+.pophint {
+	position:absolute;
+	color:#fff;
+	padding:0 10px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	background:#F60;
+}
+.pophint .poparrow {
+	position:absolute;
+	right:15px;
+	bottom:-8px;
+	width:35px;
+	height:8px;
+	background:url(/img/poparrow.png);
+}
+.wx_close {
+	position:absolute;
+	right:15px;
+	top:15px;
+	width:16px;
+	height:16px;
+	display:block;
+	background-image:url(http://www.juxinbox.com/img/pop_close.png);
+	background-position:left top;
+}

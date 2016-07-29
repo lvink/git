@@ -1,0 +1,322 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	width:100%;
+	min-height:100%;
+	overflow-x:hidden;
+}
+body {
+	padding:2.5em 0;
+	float:left;
+	width:100%;
+	min-height:100%;
+	overflow-x:hidden;
+}
+a img {
+	border:none;
+}
+ul {
+	list-style-position:outside;
+	list-style-type:none;
+}
+.fl {
+	float:left !important;
+}
+.fr {
+	float:right !important;
+}
+.cl {
+	clear:both;
+}
+.button {
+	display:block;
+	height:1.5em;
+	line-height:1.5em;
+	padding:0.4em;
+	margin:0 -0.4em;
+	font-size:1.25em;	
+	text-align:center;
+	-moz-border-radius: 0.4em;     
+    -webkit-border-radius: 0.4em;   
+    border-radius:0.4em;
+	background:#fff;
+	border:0.1em solid #ddd;
+	color:#999;
+	background-image: linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	text-decoration:none;
+	text-shadow:0 0.1em 0 #fff;	
+}
+.button.submit {
+	color:#FFF;
+	background:#f60;
+	border:0.1em solid #f30;
+	background-image: linear-gradient(top, #f60 0%, #f30 97%, #f30 100%);
+	background-image: -moz-linear-gradient(top, #f60 0%, #f30 97%, #f30 100%);
+	background-image: -webkit-linear-gradient(top, #f60 0%, #f30 97%, #f30 100%);
+	text-shadow:0 0.1em 0 #f60;
+}
+.button img {
+	height:100%;
+	display:block;
+	float:left;
+	vertical-align:middle;
+	margin-right:0.5em;
+}
+
+#top {
+	height:1.5em;
+	padding:0.5em 0;
+	font-size:1em;
+	line-height:1.5em;
+	text-align:center;
+	color:#666;
+	box-shadow:0 0.1em 0.3em rgba(0,0,0,0.2);
+	background:#fff;
+	text-shadow:0 0.1em 0 #fff;
+	background-image: linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #eee 97%, #eee 100%);
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+}
+#logo img {
+	width:100%;
+}
+#intro {
+	padding:1em;
+	color:#666;
+	font-size:0.8em;
+	line-height:1.8em;
+	text-shadow:0 0.1em 0 #fff;
+}
+#headpic {
+}
+#headpic img {
+	width:100%;
+}
+.form_div {
+	padding:1em 1em;
+}
+.form_div .info {
+	color:#666;
+	font-size:0.8em;
+	padding:1em 0;
+	text-shadow:0 0.1em 0 #fff;
+}
+.form_div .info.sucess {
+	color:#060;
+}
+.form_div .info.note {
+	border:0.1em solid #FFC6AA;
+	-moz-border-radius: 0.4em;     
+    -webkit-border-radius: 0.4em;   
+    border-radius:0.4em;
+	padding:0.5em;
+	background:#FFE8DD;
+	color:#F60;
+	margin:1em 0;
+}
+
+.form_div .info.user {
+	border:0.1em solid #ddd;
+	-moz-border-radius: 0.4em;     
+    -webkit-border-radius: 0.4em;   
+    border-radius:0.4em;
+	padding:0.5em;
+	background:#fff;
+	color:#999;
+	margin:1em 0;
+}
+.form_div .info.user .text{
+	font-size:1.2em;
+	line-height:1.5em;
+	color:#666;
+}
+.form_div .info.user .note{
+	color:#060;
+}
+.form_div .info.card {
+	box-shadow:0.2em 0.2em 0.6em rgba(0,0,0,0.2);
+	-moz-border-radius: 1.5em;     
+    -webkit-border-radius: 1.5em;   
+    border-radius:1.5em;
+	overflow:hidden;
+	padding:0;
+}
+.form_div .info.card img {
+	width:100%;
+}
+.form_div .info.text {
+	color:#666;
+	font-size:1.5em;
+	padding:0.5em 0;
+	text-shadow:0 0.1em 0 #fff;
+}
+.form_div .info.number {
+	font-size:2em;
+	-moz-border-radius: 0.2em;     
+    -webkit-border-radius: 0.2em;   
+    border-radius:0.2em;
+	padding:0.25em;
+	background:#333;
+	color:#fff;
+	text-shadow:none;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	margin:0.5em 0;
+	position:relative;
+}
+.form_div .info.number .perfix {
+	position:absolute;
+	display:block;
+	left:0.5em;
+	bottom:0.3em;
+	font-size:0.5em;
+	color:#999;
+}
+.form_div .label {
+	color:#999;
+	padding:0.5em 0 0 0;
+	text-shadow:0 0.1em 0 #fff;
+}
+.form_div .input {
+	padding:0.5em 0.5em;
+}
+.form_div .input input {
+	width:100%;
+	color:#666;
+	height:1.5em;
+	line-height:1.5em;
+	font-size:1.25em; 
+	padding:0.4em;
+	margin:0 -0.4em;
+	-moz-border-radius: 0.3em;     
+    -webkit-border-radius: 0.3em;   
+    border-radius:0.3em;
+	border:0.05em solid #ccc;
+	box-shadow:0 0.05em 0.05em 0 rgba(0,0,0,0.075) inset;
+}
+.form_div .select {
+	padding:0.5em 0;
+}
+.form_div .select select {
+	width:100%;
+	text-align:center;
+	color:#666;
+	height:2.3em;
+	line-height:2.3em;
+	font-size:1.25em; 
+	padding:0.2em;
+	-moz-border-radius: 0.3em;     
+    -webkit-border-radius: 0.3em;   
+    border-radius:0.3em;
+	border:0.05em solid #ccc;
+	box-shadow:0 0.1em 0.1em 0 rgba(0,0,0,0.075) inset;
+}
+.form_div .textarea {
+	padding:0.5em 0;
+}
+.form_div .textarea textarea{
+	width:100%;
+	color:#666;
+	line-height:1.5em;
+	font-size:1.25em; 
+	padding:0.2em;
+	margin:0 -0.2em;
+	-moz-border-radius: 0.3em;     
+    -webkit-border-radius: 0.3em;   
+    border-radius:0.3em;
+	border:0.05em solid #ccc;
+	box-shadow:0 0.1em 0.1em 0 rgba(0,0,0,0.075) inset;
+}
+.form_div .bs {
+	padding:1em 0.5em;
+}
+
+#foot {
+	height:1.5em;
+	padding:1em 0;
+	font-size:0.6em;
+	line-height:1.5em;
+	text-align:center;
+	color:#666;
+	box-shadow:0 0.2em 0.4em rgba(0,0,0,0.1) inset;
+	background:#fff;
+	text-shadow:0 0.1em 0 #fff;
+	background-image: linear-gradient(top, #eee 0%, #fff 97%, #fff 100%);
+	background-image: -moz-linear-gradient(top, #eee 0%, #fff 97%, #fff 100%);
+	background-image: -webkit-linear-gradient(top, #eee 0%, #fff 97%, #fff 100%);
+	position:fixed;
+	bottom:0;
+	clear:both;
+	z-index:1000;
+	width:100%;
+}
+#shop_logo{
+	text-decoration:none;
+	float:left;
+	color:#666;
+	font-size:1.2em;
+	margin-left:1em;
+}
+#jx_logo{
+	text-decoration:none;
+	float:right;
+	color:#999;
+	margin-right:1em;
+}
+#jx_logo .jx_logo_text {
+	color:#0C0;
+}
+#jx_logo .jx_logo_mess {
+	color:#999;
+}
+.ipbg {
+	width:320px;
+	height:415px;
+	padding:197px 32px 133px 32px;
+	background:0 0 no-repeat url(/crm/img/ipbg.png);
+}
+.ipbg #content {
+	position:absolute;
+	left:32px;
+	top:197px;
+	width:320px;
+	height:415px;
+	overflow-y:auto;
+}
+.ipbg #gua {
+	height:415px;
+}
+.ipbg #top {
+	left:32px;
+	top:197px;
+	width:320px;
+}
+
+.ipbg #foot {
+	left:32px;
+	bottom:133px;
+	width:320px;
+}
+.ipbg .ipclose {
+	display:block;
+	width:32px;
+	height:32px;
+	background:left top url(/crm/img/ipclose.png) no-repeat;
+	position:absolute;
+	right:35px;
+	top:35px;
+}
+.ipbg .ipclose:hover {
+	background:right top url(/crm/img/ipclose.png) no-repeat;
+}
